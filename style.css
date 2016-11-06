@@ -1,0 +1,116 @@
+html {
+	width: 80%;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 3rem;
+	
+}
+
+
+
+div.background p{
+	position: relative;
+	top: 25px;
+	left:25px;
+	width: 300px;
+	height: 500px;
+	font-size: 2.5rem
+}
+div#header {
+	width: 100%q;
+	color: black;
+	background: gray;
+	padding: 20px;
+}
+
+
+
+.nav ul {
+	width: 100%;
+	list-style: none;
+	background-color: red;
+	text-align: center;
+	padding: 0;
+	margin-top: 0px;
+}
+
+.nav li {
+	font-size: 1.2em;
+	height: 40px;
+	border-bottom: 1px solid #888;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav a:hover {
+	background-color: #005f5f
+}
+
+a.active {
+	background-color: #fff;
+	color: #444
+}
+
+
+
+.nav li {
+	width: 70px;
+	border-bottom: none;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1em
+
+}
+
+.nav li {
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
+	background-color: #444;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	font-size: 1.5rem;
+	line-height: 40px;
+	height: 40px;
+	color: white;
+}
+
+div.background{
+	background: url('../img/background-picture.jpg') no-repeat scroll 0 0;
+	background-size: cover;
+	height: 2000px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+div#header h1{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+.nav li{
+	font-family: 'Trirong', serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+p{
+	font-family: 'Trirong', serif;
+}
+
+
